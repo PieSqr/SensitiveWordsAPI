@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensitiveWordsAPI", "SensitiveWordsAPI\SensitiveWordsAPI.csproj", "{6771B667-6064-4543-B87E-EB8CD3966880}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SensitiveWordsDb", "SensitiveWordsDb\SensitiveWordsDb.sqlproj", "{496B434E-7C57-4C5A-B651-BFD904D7691F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6771B667-6064-4543-B87E-EB8CD3966880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6771B667-6064-4543-B87E-EB8CD3966880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6771B667-6064-4543-B87E-EB8CD3966880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6771B667-6064-4543-B87E-EB8CD3966880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{496B434E-7C57-4C5A-B651-BFD904D7691F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{496B434E-7C57-4C5A-B651-BFD904D7691F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{496B434E-7C57-4C5A-B651-BFD904D7691F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{496B434E-7C57-4C5A-B651-BFD904D7691F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{496B434E-7C57-4C5A-B651-BFD904D7691F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{496B434E-7C57-4C5A-B651-BFD904D7691F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {484F2D17-842D-4B2E-AFF7-FDD53EC2C4C9}
+	EndGlobalSection
+EndGlobal
