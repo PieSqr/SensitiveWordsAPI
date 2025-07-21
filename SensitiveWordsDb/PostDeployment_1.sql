@@ -1,24 +1,15 @@
-﻿-- Create the database if it doesn't exist
-IF DB_ID('SensitiveWordsDb') IS NULL
-    CREATE DATABASE SensitiveWordsDb;
-GO
+﻿/*
+Post-Deployment Script Template							
+--------------------------------------------------------------------------------------
+ This file contains SQL statements that will be appended to the build script.		
+ Use SQLCMD syntax to include a file in the post-deployment script.			
+ Example:      :r .\myfile.sql								
+ Use SQLCMD syntax to reference a variable in the post-deployment script.		
+ Example:      :setvar TableName MyTable							
+               SELECT * FROM [$(TableName)]					
+--------------------------------------------------------------------------------------
+*/
 
-USE SensitiveWordsDb;
-GO
-
--- Drop the table if it exists
-IF OBJECT_ID('dbo.SensitiveWords', 'U') IS NOT NULL
-    DROP TABLE dbo.SensitiveWords;
-GO
-
--- Create the SensitiveWords table
-CREATE TABLE dbo.SensitiveWords (
-    Id INT IDENTITY(1,1) PRIMARY KEY,
-    Word NVARCHAR(100) NOT NULL UNIQUE
-);
-GO
-
--- Insert sensitive words
 INSERT INTO dbo.SensitiveWords (Word)
 VALUES 
 ('ACTION'), ('ADD'), ('ALL'), ('ALLOCATE'), ('ALTER'), ('ANY'), ('APPLICATION'), ('ARE'), ('AREA'), ('ASC'),

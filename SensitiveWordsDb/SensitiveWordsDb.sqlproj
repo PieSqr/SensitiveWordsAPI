@@ -58,6 +58,9 @@
     <Folder Include="Properties" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Build Script.sql" />
+    <Build Include="SensitiveWords_1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="PostDeployment_1.sql" />
   </ItemGroup>
 </Project>
