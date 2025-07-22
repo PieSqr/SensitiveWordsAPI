@@ -4,6 +4,10 @@ using SensitiveWordsAPI.Services;
 
 namespace SensitiveWordsAPI.Controllers
 {
+
+    /// <summary>
+    /// Provides CRUD operations for managing sensitive words in the database.
+    /// </summary>
     [ApiController]
     [Route("api/[controller]")]
     public class WordsController : ControllerBase
